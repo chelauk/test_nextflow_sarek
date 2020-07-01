@@ -21,9 +21,12 @@ create folder eg `singularity` and copy singularity image into it
 export NXF_SINGULARITY_CACHEDIR variable in .bashrc
 
 eg
+
 `export NXF_SINGULARITY_CACHEDIR=/mnt/scratch/DMP/EVGENMOD/cjames/nextflow_pipelines/singularity/`
 
-module load nextflow/19.10.0
+load nextflow
+
+`module load nextflow/19.10.0`
 
 run this command
 
