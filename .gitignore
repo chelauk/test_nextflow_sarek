@@ -1,1 +1,5 @@
 control_bams/
+.nextflow.log
+.nextflow/
+results/
+work/
