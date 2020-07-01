@@ -10,9 +10,9 @@ clone this repository
 
 `cd test_nextflow_sarek`
 
-copy test control_bams into this folder from
+copy test control_bams folder into this folder from
 
-`/home/cjames/Scratch/test_nextflow_sarek/control_bams`
+`/home/cjames/Scratch/test_nextflow_sarek/control_bams/`
 
 create folder eg `singularity` and copy singularity image into it
 
