@@ -33,3 +33,17 @@ nextflow run sarek -profile test1,singularity \
  --step VariantCalling \
  --tools mutect2,platypus
  ```
+if you get 255 errors I am aware of them and working with ICR bioinformatics to solve them just resubmit with -resume
+
+```
+nextflow run sarek -profile test1,singularity \
+ --intervals test-giab.bed \
+ --step VariantCalling \
+ --tools mutect2,platypus \
+ -resume
+ ```
+ 
+ 
+ follow instructions at https://tower.nf/ if you want realtime updates of the pipeline on your browser
+ 
+ 
