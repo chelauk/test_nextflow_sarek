@@ -63,3 +63,5 @@ nextflow run sarek -profile test1,singularity \
  
  
 all results and reports will be in results folder
+
+the whole pipeline can also be run using bsub 
