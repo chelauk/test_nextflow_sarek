@@ -27,7 +27,7 @@ module load nextflow/19.10.0
 
 run this command
 
-`nextflow run sarek -profile test1,singularity \
+```nextflow run sarek -profile test1,singularity \
  --intervals test-giab.bed \
  --step VariantCalling \
- --tools mutect2,platypus`
+ --tools mutect2,platypus```
