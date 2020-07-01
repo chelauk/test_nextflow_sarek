@@ -31,7 +31,8 @@ run this command
 nextflow run sarek -profile test1,singularity \
  --intervals test-giab.bed \
  --step VariantCalling \
- --tools mutect2,platypus
+ --tools mutect2,platypus \
+ --input test-bams.tsv
  ```
 if you get 255 errors I am aware of them and working with ICR bioinformatics to solve them just resubmit with -resume
 
@@ -40,6 +41,7 @@ nextflow run sarek -profile test1,singularity \
  --intervals test-giab.bed \
  --step VariantCalling \
  --tools mutect2,platypus \
+ --input test-bams.tsv \
  -resume
  ```
  
