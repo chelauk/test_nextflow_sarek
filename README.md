@@ -4,7 +4,7 @@ go here for documentation etc.
 
 A temporary repository to test preliminary nextflow pipeline for ngs
 
-clone the is repository
+clone this repository
 
 `git clone https://github.com/chelauk/test_nextflow_sarek`
 
