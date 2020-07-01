@@ -46,4 +46,6 @@ nextflow run sarek -profile test1,singularity \
  
  follow instructions at https://tower.nf/ if you want realtime updates of the pipeline on your browser
  
+ Hopefully the platypus command will be included in the official nf-core/sarek pipeline but this is a slow process and we need to get on with our version.
+ 
  
