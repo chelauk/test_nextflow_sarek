@@ -61,6 +61,10 @@ nextflow run sarek -profile test1,singularity \
  
  Hopefully the platypus command will be included in the official nf-core/sarek pipeline but this is a slow process and we need to get on with our version.
  
+ The benifit of having it on nf-core is that the command will be simplified to 
+ 
+ `nextflow run sarek -profile test,singularity,icr-davros` and it will build everything for you.
+ 
  
 all results and reports will be in results folder
 
